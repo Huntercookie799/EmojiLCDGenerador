@@ -41,7 +41,7 @@ function index() {
         const variableName = variableNameInput.value || 'matriz'; // Usar 'matriz' como nombre por defecto si está vacío
 
         // Mostrar la matriz en el cuadro de salida
-        outputText.textContent = `${variableName}[8] = {\n`;
+        outputText.textContent = `byte ${variableName}[8] = {\n`;
         matriz.forEach((row, index) => {
             outputText.textContent += `  ${row}${index < matriz.length - 1 ? ',' : ''}\n`;
         });
