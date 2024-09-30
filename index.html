@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de emojis para pantallas LCD 16x2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <label for="variableName">Nombre de la variable:</label>
+            <input type="text" id="variableName" placeholder="Nombre de la variable" class="variable-name">
+            <button id="generateMatrix">Generar Matriz</button>
+            <button id="copyToClipboard">Copiar Matriz</button> <!-- Nuevo botón para copiar -->
+        </div>
+
+        <div class="grid" id="grid"></div>
+
+        <!-- Asegúrate de que esta sección esté después de la cuadrícula -->
+        <div class="matrix-output" id="matrixOutput">
+            <pre id="outputText"></pre>
+        </div>
+    </div>
+</body>
+</html>
