@@ -34,7 +34,7 @@ function index() {
                 const index = row * 5 + col;
                 fila += grid.children[index].textContent;
             }
-            matriz.push(`${fila}`);
+            matriz.push(`B${fila}`);
         }
 
         // Obtener el nombre de la variable desde el campo de entrada
